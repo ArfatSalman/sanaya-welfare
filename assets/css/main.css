@@ -949,7 +949,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
-
+			.banner-custom img {
+				padding: 0
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1194,7 +1196,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			.banner-custom img {
+				padding: 0
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1696,7 +1700,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 75%;
+			width: 100%;
 		}
 
 		.image.centered {
@@ -2228,6 +2232,7 @@ input, select, textarea {
 		#intro .middle {
 			position: relative;
 			z-index: 1;
+			font-size: 20px;
 		}
 
 			#intro .middle:before {
@@ -2507,6 +2512,7 @@ input, select, textarea {
 					#intro section.first {
 						border-top: 0;
 						padding-top: 0;
+						font-size: 20px;
 					}
 
 					#intro section p {

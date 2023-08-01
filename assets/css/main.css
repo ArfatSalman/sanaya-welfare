@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic"); */
 
 /*
 	Dopetrope by HTML5 UP
@@ -1696,7 +1696,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 100%;
+			width: 75%;
 		}
 
 		.image.centered {
@@ -2068,7 +2068,7 @@ input, select, textarea {
 		position: relative;
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
-		padding: 5em 0 4em 0;
+		/* padding: 5em 0 4em 0; */
 		text-align: center;
 	}
 
@@ -2390,7 +2390,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4em 0 3em 0;
+				/* padding: 4em 0 3em 0; */
 			}
 
 		/* Banner */
